@@ -1,12 +1,12 @@
 object BadCode extends App {
 
-  val option = None
+  val option:Option[String] = None
 
   val boom = option.get
 
   val boom1 = option.head
 
-  val list = List()
+  val list:List[Int] = List()
 
   val boom2 = list.head
 
